@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/gente-prevalente/static/css/main.68800ef0.chunk.css",
+    "main.js": "/gente-prevalente/static/js/main.bd46b811.chunk.js",
+    "main.js.map": "/gente-prevalente/static/js/main.bd46b811.chunk.js.map",
+    "runtime-main.js": "/gente-prevalente/static/js/runtime-main.a4c4b6fd.js",
+    "runtime-main.js.map": "/gente-prevalente/static/js/runtime-main.a4c4b6fd.js.map",
+    "static/js/2.57e8b2dc.chunk.js": "/gente-prevalente/static/js/2.57e8b2dc.chunk.js",
+    "static/js/2.57e8b2dc.chunk.js.map": "/gente-prevalente/static/js/2.57e8b2dc.chunk.js.map",
+    "index.html": "/gente-prevalente/index.html",
+    "static/css/main.68800ef0.chunk.css.map": "/gente-prevalente/static/css/main.68800ef0.chunk.css.map",
+    "static/js/2.57e8b2dc.chunk.js.LICENSE.txt": "/gente-prevalente/static/js/2.57e8b2dc.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.a4c4b6fd.js",
+    "static/js/2.57e8b2dc.chunk.js",
+    "static/css/main.68800ef0.chunk.css",
+    "static/js/main.bd46b811.chunk.js"
+  ]
+}
