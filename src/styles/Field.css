@@ -1,0 +1,14 @@
+.f__title {
+  color: #727171;
+  font-weight: 400;
+  font-size: 14px;
+  margin-bottom: 0.5rem;
+}
+
+.f__text {
+  color: #000000;
+  font-weight: 700;
+  font-size: 16px;
+  text-transform: uppercase;
+  margin-left: 0.5rem;
+}

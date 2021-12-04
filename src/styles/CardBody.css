@@ -1,0 +1,10 @@
+.card-body {
+  padding: 8rem 2rem 5rem;
+  position: relative;
+  height: 75%;
+}
+
+.card-body-title {
+  font-size: 36px !important;
+  font-weight: 400;
+}

@@ -1,23 +1,28 @@
-import logo from './logo.svg';
-import './App.css';
+import Navbar from "./components/Navbar";
+import Approvals from "./pages/Approvals";
+import Home from "./pages/Home";
+import { useState } from "react";
 
 function App() {
+  const [page, setPage] = useState("home");
+
+  const toPage = (page) => (event) => {
+    event.preventDefault();
+    setPage(page);
+  };
+
+  const getContent = () => {
+    if (page === "home") {
+      return <Home handleNav={toPage} />;
+    } else {
+      return <Approvals />;
+    }
+  };
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Navbar />
+      {getContent()}
     </div>
   );
 }

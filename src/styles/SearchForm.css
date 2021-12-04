@@ -1,0 +1,10 @@
+.search-form > input {
+  background: transparent;
+  border: none;
+  outline: none;
+  font-size: 16px;
+}
+
+.search-form > img {
+  margin-right: 0.5rem;
+}

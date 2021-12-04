@@ -1,0 +1,8 @@
+.buttons-panel > * {
+  margin-bottom: 0.5rem;
+}
+
+.buttons-panel {
+  position: absolute;
+  right: 2rem;
+}

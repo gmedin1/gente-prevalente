@@ -1,0 +1,11 @@
+.card-foot > img {
+  margin-right: 0.5rem;
+  margin-left: 2rem;
+}
+
+.card-foot {
+  display: flex;
+  align-items: center;
+  height: 15%;
+  color: #9a9a9a;
+}
